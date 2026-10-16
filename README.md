@@ -27,5 +27,5 @@
 </p>
 
 <p align="center">
-  <img src="./footer.svg" width="100%" alt="Footer banner" />
+  <img src="./footer(1).svg" width="100%" alt="Footer banner" />
 </p>
