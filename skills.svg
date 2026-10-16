@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="276" viewBox="0 0 800 276">
+  <style>
+    svg { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    @keyframes chip0 { 0%,0% { opacity: 0; transform: translateY(6px) } 2%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip1 { 0%,2% { opacity: 0; transform: translateY(6px) } 4%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip2 { 0%,4% { opacity: 0; transform: translateY(6px) } 6%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip3 { 0%,6% { opacity: 0; transform: translateY(6px) } 8%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip4 { 0%,8% { opacity: 0; transform: translateY(6px) } 10%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip5 { 0%,9% { opacity: 0; transform: translateY(6px) } 11%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip6 { 0%,11% { opacity: 0; transform: translateY(6px) } 13%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip7 { 0%,13% { opacity: 0; transform: translateY(6px) } 15%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip8 { 0%,15% { opacity: 0; transform: translateY(6px) } 17%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip9 { 0%,17% { opacity: 0; transform: translateY(6px) } 19%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip10 { 0%,19% { opacity: 0; transform: translateY(6px) } 21%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip11 { 0%,21% { opacity: 0; transform: translateY(6px) } 23%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip12 { 0%,23% { opacity: 0; transform: translateY(6px) } 25%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip13 { 0%,24% { opacity: 0; transform: translateY(6px) } 26%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip14 { 0%,26% { opacity: 0; transform: translateY(6px) } 28%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip15 { 0%,28% { opacity: 0; transform: translateY(6px) } 30%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    @keyframes chip16 { 0%,30% { opacity: 0; transform: translateY(6px) } 32%,92% { opacity: 1; transform: translateY(0) } 97%,100% { opacity: 0 } }
+    .chip0 { animation: chip0 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip1 { animation: chip1 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip2 { animation: chip2 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip3 { animation: chip3 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip4 { animation: chip4 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip5 { animation: chip5 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip6 { animation: chip6 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip7 { animation: chip7 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip8 { animation: chip8 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip9 { animation: chip9 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip10 { animation: chip10 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip11 { animation: chip11 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip12 { animation: chip12 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip13 { animation: chip13 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip14 { animation: chip14 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip15 { animation: chip15 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+    .chip16 { animation: chip16 15s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+  </style>
+  <rect width="100%" height="100%" fill="#0d0d10" rx="14" ry="14"/>
+
+  <!-- Accent bar -->
+  <rect x="56" y="74" width="56" height="3" rx="1.5" fill="#ffffff"/>
+
+  <!-- Heading -->
+  <text x="56" y="56" fill="#f7f7fb" font-size="30" font-weight="700" letter-spacing="-0.02em">Stack.</text>
+
+  <!-- Sub-line -->
+  <text x="56" y="104" fill="#a5a5b3" font-size="13" font-weight="500" letter-spacing="0.02em">17 tools I reach for daily.</text>
+
+  <!-- Pill rows -->
+  <g class="chip0">
+        <rect x="72.99999999999999" y="134" width="113.2" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="129.6" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">TYPESCRIPT</text>
+      </g>
+  <g class="chip1">
+        <rect x="196.19999999999996" y="134" width="95.6" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="244" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">POSTGRES</text>
+      </g>
+  <g class="chip2">
+        <rect x="301.79999999999995" y="134" width="70.2" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="336.9" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">REACT</text>
+      </g>
+  <g class="chip3">
+        <rect x="381.99999999999994" y="134" width="87.8" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="425.8999999999999" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">MONGODB</text>
+      </g>
+  <g class="chip4">
+        <rect x="479.79999999999995" y="134" width="52.6" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="506.09999999999997" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">C++</text>
+      </g>
+  <g class="chip5">
+        <rect x="542.4" y="134" width="61.4" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="573.1" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">JAVA</text>
+      </g>
+  <g class="chip6">
+        <rect x="613.8" y="134" width="113.2" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="670.4" y="148" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">JAVASCRIPT</text>
+      </g>
+  <g class="chip7">
+        <rect x="71.00000000000001" y="172" width="87.8" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="114.9" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">FLUTTER</text>
+      </g>
+  <g class="chip8">
+        <rect x="168.8" y="172" width="61.4" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="199.5" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">DART</text>
+      </g>
+  <g class="chip9">
+        <rect x="240.2" y="172" width="87.8" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="284.1" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">EXPRESS</text>
+      </g>
+  <g class="chip10">
+        <rect x="338" y="172" width="61.4" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="368.7" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">HTML</text>
+      </g>
+  <g class="chip11">
+        <rect x="409.4" y="172" width="70.2" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="444.5" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">FIGMA</text>
+      </g>
+  <g class="chip12">
+        <rect x="489.59999999999997" y="172" width="87.8" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="533.5" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">POSTMAN</text>
+      </g>
+  <g class="chip13">
+        <rect x="587.4" y="172" width="52.6" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="613.6999999999999" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">GIT</text>
+      </g>
+  <g class="chip14">
+        <rect x="650" y="172" width="79" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="689.5" y="186" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">GITHUB</text>
+      </g>
+  <g class="chip15">
+        <rect x="329" y="210" width="79" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="368.5" y="224" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">DOCKER</text>
+      </g>
+  <g class="chip16">
+        <rect x="418" y="210" width="52.6" height="28" rx="14" fill="#0d0d10" stroke="#a5a5b3" stroke-width="1" stroke-opacity="0.55"/>
+        <text x="444.3" y="224" fill="#f7f7fb" font-family="ui-monospace, monospace" font-size="13" letter-spacing="0.8" text-anchor="middle" dominant-baseline="middle">CSS</text>
+      </g>
+</svg>
