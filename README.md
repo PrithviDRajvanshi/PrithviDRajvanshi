@@ -27,5 +27,11 @@
 </p>
 
 <p align="center">
-  <img src="./footer-clean.svg" width="100%" alt="Footer banner" />
+  <img src="./footer-clean.svg" width="100%" alt="Animated footer" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/prithvi-rajvanshi-21782529b/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
 </p>
