@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img src="./footer-clean.svg" width="100%" alt="Animated footer" />
+  <img src="./footer-no-links.svg" width="100%" alt="Animated footer" />
 </p>
 
 <p align="center">
