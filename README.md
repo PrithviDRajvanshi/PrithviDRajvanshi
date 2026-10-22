@@ -22,9 +22,7 @@
   <img src="./skills.svg" width="100%" alt="My skills" />
 </p>
 
-<p align="center">
-  <img src="./gh-stats.svg" width="100%" alt="GitHub statistics" />
-</p>
+
 
 <p align="center">
   <img src="./footer-fixed.svg" width="100%" alt="Animated footer" />
